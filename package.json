@@ -2,9 +2,14 @@
   "name": "css2tailwind",
   "version": "0.0.1",
   "description": "This tool will convert css to tailwind and back",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/iDenisM/css2tailwind/issues"
   },
-  "homepage": "https://github.com/iDenisM/css2tailwind#readme"
+  "homepage": "https://github.com/iDenisM/css2tailwind#readme",
+  "dependencies": {
+    "css": "^3.0.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
 }
