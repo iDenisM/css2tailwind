@@ -1,0 +1,24 @@
+{
+  "name": "css2tailwind",
+  "version": "0.0.1",
+  "description": "This tool will convert css to tailwind and back",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDenisM/css2tailwind.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "convert"
+  ],
+  "author": "Denis Mitiliuc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iDenisM/css2tailwind/issues"
+  },
+  "homepage": "https://github.com/iDenisM/css2tailwind#readme"
+}
